@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  </style>
+  
+  <link rel="stylesheet" href="./index.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily:{
+                'Jose':['"Josefin Sans"','sans-serif'],
+                'Inter':['Inter','sans-serif']
+          },
+          colors:{
+            paleGray:'#4E5A65',
+            lightPurple:'#ECE5FF',
+            purpleim:'#794CFF',
+            darkGray:'#35414B',
+            paleBlack:'#1D2830',
+            lightGreen:' #81C43B'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <div class="flex justify-between md:mx-24 mt-4 mx-5 items-center">
+        <div class="font-Jose font-semibold">team.flow</div>
+        <div class="text-paleGray font-Jose hidden lg:flex">
+            <span class="mr-5 cursor-pointer">How it Works</span>
+            <span class="mr-5 cursor-pointer">Product</span>
+            <span class="mr-5 cursor-pointer">Pricing</span>
+            <span class="cursor-pointer">Resources</span>
+        </div>
+        <div class="font-Jose text-paleGray hidden lg:flex items-center">
+            <span class="mr-5 cursor-pointer">Log in</span>
+            <span class="bg-lightPurple px-4 py-2 text-purpleim cursor-pointer">Get started free</span>
+        </div>
+        <div class="flex md:hidden menu">
+            <i class="fa fa-bars cursor-pointer "></i>
+        </div>
+    </div>
+    <div class="font-Inter absolute ml-48 pl-8 navmob active w-[60%] top-12 bg-white min-h-screen">
+      <ul >
+        <li class="pb-2">How it Works</li>
+        <li class="pb-2">Product</li>
+        <li class="pb-2">Pricing</li>
+        <li class="pb-2">Resources</li>
+        <li class="pb-2">Log in</li>
+        <li class="pb-2">Get started free</li>
+      </ul>
+    </div>
+    <div class="mt-16">
+      <div class="flex justify-center items-center mb-8">
+        <div class="font-Inter text-white bg-lightGreen px-5 py-1 rounded-2xl hidden md:flex">Save 90%</div>
+        <div class="font-Inter text-sm">Get account of dollar $59></div>
+      </div>
+      <div class="mx-auto font-Inter font-bold text-2xl md:text-5xl text-darkGray w-[48%] md:w-[40%] text-center md:leading-normal">
+        Manage the team everyone wants to be on
+      </div>
+      <div class="font-Inter text-paleGray md:w-[34%] w-[78%] text-center mx-auto mt-4">
+        Simple platfrom that lets you master what great managers do best, as develop trust, collaborate, and drive team performance
+      </div>
+      <div class="items-center md:flex justify-center mt-5 mx-16 md:mx-20">
+        <form class="md:flex">
+        <input class="pl-4 border-paleGray border-2 text-Inter text-sm md:px-5 md:pr-36 py-3 pr-20 mb-2 md:mb-0 rounded-sm rounded-l-md" type="email" placeholder="name@yourcompany.com" required/>
+        <div>
+        <button type="submit" class="bg-purpleim py-3 text-sm text-white md:px-7 pl-24 pr-24 md:py-3.5 rounded-sm rounded-r-md text-center font-Inter">Try it free</button>
+        </div>
+      </form>
+      </div>
+    </div>
+    <div class="md:flex justify-center">
+      <img src="./images/Graph 2 1.jpg" alt="Landing_img"/>
+    </div>
+    <div class="flex justify-center font-Inter text-paleGray tracking-wider text-xs md:text-base">
+        TRUSTED BY OVER <span class="text-darkGray font-semibold px-3"> 10,000+</span> WORLD'S BEST TEAMS
+    </div>
+    <div class="mt-6 flex justify-between mx-5 md:mx-72">
+      <img class="w-12 md:w-20" src="./images/google-2015a 1.jpg"/>
+      <img class="w-12 md:w-20" src="./images/airbnb 1.jpg"/>
+      <img class="w-12 md:w-20" src="./images/Group.jpg"/>
+      <img class="w-12 md:w-20" src="./images/slack-2 1.jpg"/>
+      <img class="w-12 md:w-20" src="./images/hubspot 1.jpg"/>
+    </div>
+    <div class="mt-20 md:flex  md:ml-36">
+      <div class="mx-5">
+        <img src="./images/Group 25.jpg"/>
+      </div>
+      
+      <div class="md:ml-44 mt-7 grid-flow-row mx-2">
+
+        <div class="mb-7 mt-2 bg-lightPurple md:w-[64%] md:flex items-center pr-6 pt-3 md:pt-0">
+          <div class="h-32 w-4 bg-purpleim mr-6 hidden md:flex ">
+          </div>
+          <div>
+          <div class="font-Inter font-bold mb-4 text-center md:text-left">Survey your team</div>
+          <div class="font-Inter text-paleGray text-center md:text-left leading-6 mx-7 md:mx-0 pb-3">Powerful questions that get to the heart of how team members really feel.</div>
+          <div class="h-3 w-[106.5%] bg-purpleim mr-5 flex md:hidden"></div>
+        </div>
+        </div>
+        <div class="mb-7 ml-8">
+          <div class="font-Inter font-bold mb-4 text-center md:text-left">Resolve issues quickly</div>
+          <div class="font-Inter text-paleGray text-center md:text-left md:w-[55%] leading-6 mx-7 md:mx-0">Anonymous messaging that connects managers and employees.</div>
+        </div>
+        <div class="mb-7 ml-8">
+          <div class="font-Inter font-bold mb-4 text-center md:text-left">Plan your 1-on-1s</div>
+          <div class="font-Inter text-paleGray text-center md:text-left md:w-[55%] leading-6 mx-7 md:mx-0">Plan meetings together and give a stake employees and teams.</div>
+        </div>
+        <div class="mb-7 ml-8">
+          <div class="font-Inter font-bold mb-4 text-center md:text-left">Track your progress</div>
+          <div class="font-Inter text-paleGray text-center md:text-left md:w-[55%] leading-6 mx-7 md:mx-0">Easy-to-read reports and sharable results help managers and teams.</div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-16 flex justify-center">
+        <div class="font-Inter md:text-5xl font-bold text-darkGray">Make your work easier</div>
+     
+    </div>
+    <div class="mt-16 md:grid md:grid-cols-3 md:mx-32">
+      <div class="w-[80%] mx-auto text-center md:w-full md:text-left">
+        <img class="mb-2 mx-auto md:mx-0" src="./images/Group 21.jpg"/>
+        <div class="font-Inter font-bold mb-2 ">Team Surveys & Reports</div>
+        <div class="font-Inter text-paleGray md:w-[70%]">Short, anonymous surveys track your team's needs weekly so you can focus.</div>
+      </div>
+      <div class="w-[60%] mx-auto text-center md:w-full md:text-left mt-7">
+        <img class="mb-2 mx-auto md:mx-0" src="./images/Group 19.jpg"/>
+        <div class="font-Inter font-bold mb-2">Collaborative 1:1</div>
+        <div class="font-Inter text-paleGray md:w-[70%]">Build relationships by planning 1-on-1s and start meetings</div>
+      </div>
+      <div class="w-[80%] mx-auto text-center md:w-full md:text-left mt-7">
+        <img class="mb-2 mx-auto md:mx-0" src="./images/Group 20.jpg"/>
+        <div class="font-Inter font-bold mb-2">Learning Center</div>
+        <div class="font-Inter text-paleGray md:w-[70%]">Quickly get solutions tailored to your personal challenges from the manager.</div>
+      </div>
+    </div>
+    <div class="hidden mt-16 md:grid md:grid-cols-3 md:mx-32">
+      <div>
+        <img class="mb-2" src="./images/Group 22.jpg"/>
+        <div class="font-Inter font-bold mb-2">Anonymous Messaging</div>
+        <div class="font-Inter text-paleGray md:w-[70%]">Develop trust in a safe channel for important conversations.</div>
+      </div>
+      <div>
+        <img class="mb-2" src="./images/Group 23.jpg"/>
+        <div class="font-Inter font-bold mb-2">Conversion Engine</div>
+        <div class="font-Inter text-paleGray md:w-[70%]">Communicate confidently with recommended talking points.</div>
+      </div>
+      <div>
+        <img class="mb-2" src="./images/Group 24.jpg"/>
+        <div class="font-Inter font-bold mb-2">Exclusives Manager</div>
+        <div class="font-Inter text-paleGray md:w-[75%]">Access manager tips, activities and best practices from our team of experts.</div>
+      </div>
+    </div>
+    <div class="bg-lightPurple font-Inter font-semibold block md:hidden text-purpleim text-center py-3 mx-8 mt-8 cursor-pointer rounded-md">View more benefits</div>
+    <div class="mt-16 md:flex md:justify-center md:mx-44 grid grid-rows-2">
+      <div class="mt-8 md:order-first order-last">
+          <div class="font-Inter flex justify-center md:text-3xl font-bold md:w-[40%] w-[40%] mx-auto md:mx-0 text-center md:text-left text-darkGray mb-5">We work how you work everyday</div>
+          <div class="font-Inter text-paleGray md:mx-0 md:text-left mx-auto text-center w-[78%] md:w-[60%] md:leading-6 mb-5">Since the easiest things to use actually get used, we adapts to the way your team works - not the other way around.</div>
+          <button class="font-Inter bg-purpleim ml-32 md:ml-0 text-white px-7 py-3 rounded-md">Get started free</button>
+        </div>
+        <div class="order-first md:order-last">
+          <img class="w-[80%] md:w-full mx-auto" src="./images/Group 26.jpg"/>
+        </div>
+    </div>
+    <div class="mt-20">
+      <div class="font-Inter font-bold md:text-4xl md:w-[30%] w-[40%] mx-auto text-center text-darkGray">Why customers love working with us</div>
+      <div class="font-Inter text-paleGray md:leading-7 text-center mx-auto mt-10 w-[75%] md:w-[30%]">"It's amazing what has helped me learn about my team.I don't worry about blindspots anymore, and 1-on-1s have never been more productive. The team loves it."</div>
+    </div>
+    <div class="md:flex md:justify-between mt-20 md:mx-32 items-center">
+      <div class="md:flexbox ">
+        <div class="hidden md:flex h-2 w-72 mb-8 bg-darkGray"></div>
+        <div class="md:flex">
+          <div class="md:mr-6 mb-5">
+              <img class="mx-auto md:mx-0" src="./images/Ellipse 5.jpg"/>
+          </div>
+          <div>
+            <div class="font-Inter font-semibold  flex justify-center ">Jorge Robertson</div>
+            <div class="font-Inter text-paleGray flex justify-center">CS at Google</div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden md:flex">
+        <div class="mr-6">
+          <img src="./images/Ellipse 6.jpg"/>
+        </div>
+        <div>
+          <div class="font-Inter font-semibold  ">Francisco Bell</div>
+          <div class="font-Inter text-paleGray ">Designer at Microsoft</div>
+        </div>
+      </div>
+      <div class="hidden md:flex">
+        <div class="mr-6">
+          <img src="./images/Ellipse 7.jpg"/>
+        </div>
+        <div>
+          <div class="font-Inter font-semibold  ">Beth Fox</div>
+          <div class="font-Inter text-paleGray ">Developer at Airbnb</div>
+        </div>
+      </div>
+    </div>
+    <div class="md:mx-44 pt-12 pb-16 mt-14 rounded-md  bg-purpleim font-Inter font-bold items-center text-white md:flex md:justify-between">
+      <div class="text-2xl pt-6 md:ml-32 w-[80%] mx-auto md:w-[30%]">84% of employees who use trust their direct manager</div> 
+      <div class="md:flex pt-6 md:mr-6">
+      <img class="rounded-md md:h-14 mb-6 md:mr-6 mx-auto" src="./images/google-play-badge 1.jpg"/>
+      <img class="rounded-md md:h-14 mx-auto" src="./images/Group-1.jpg"/>  
+    </div>
+    </div>
+    <div class="mt-16 bg-paleBlack">
+        <div class="ml-8 pt-12 md:pl-32 pb-12  md:grid md:grid-cols-4 font-Inter text-white">
+           <div>
+              <div class="font-semibold mb-2">Company</div>
+              <div class="hidden md:block">
+              <div class="mb-2">About Us</div>
+              <div class="mb-2">Blog</div>
+              <div class="mb-2">Careers</div>
+              <div class="mb-2">Contact Us</div>
+            </div>
+           </div>
+           <div>
+            <div class="font-semibold mb-2">Support</div>
+            <div class="hidden md:block">
+            <div class="mb-2">Help Center</div>
+            <div class="mb-2">Safety Center</div>
+            <div class="mb-2">Community</div>
+          </div>
+         </div>
+         <div>
+          <div class="font-semibold mb-2">Legal</div>
+          <div class="hidden md:block">
+          <div class="mb-2">Cookies Policy</div>
+          <div class="mb-2">Privacy Policy</div>
+          <div class="mb-2">Terms of Service</div>
+        </div>
+       </div>
+       <div>
+        <div class="font-semibold mb-2">Install App</div>
+        <img class="mb-2 rounded-lg" src="./images/Layer 2.jpg"/>
+        <img class="mb-2 rounded-lg" src="./images/Group-2.jpg"/>
+     </div>
+        </div>
+    </div>
+    <div class="md:flex md:justify-between bg-paleBlack text-white font-Inter pb-5">
+      <div class="md:ml-44 ml-16">2020 - All rights Reserved</div>
+      <div class="mr-24 hidden md:block">
+        <i class="fa fa-instagram mr-6"></i>
+        <i class="fa fa-twitter mr-6"></i>
+        <i class="fa fa-youtube"></i>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    
+</body>
+
+</html>
